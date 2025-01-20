@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="loginForm">
+        <p>Login</p>
+        <label for="username">Username: <span>*</span></label> <br>
+        <input type="text" id="username" name="username" placeholder="username:">
+        <br><br>
+        
+        <label for="password">Password:<span>*</span></label> <br>
+        <input type="password" id="password" name="password">
+        <br>
+        <div class="remember-div">
+        <input type="checkbox">
+        <label for="">Remember me</label>
+        </div>
+        <br>
+        
+        <button type="submit" id="submitbtn">Login</button>
+        <h4><a href="#">Forgot your password?</a></h4>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
