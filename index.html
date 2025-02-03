@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form Validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav>
+        <div class="container-nav">
+            <div class="logo"><a href="index.html">Tino<span>Hub.</span></a></div>
+            <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+            <ul class="nav-links" id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="profile.html">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <i class="fa-solid fa-circle-half-stroke" id="darkModeToggle"></i>
+            </ul>
+        </div>
+    </nav> 
+
     <form id="loginForm">
         <p>Login</p>
         <label for="username">Username: <span>*</span></label> <br>
@@ -26,7 +40,15 @@
         <button type="submit" id="submitbtn">Login</button>
         <h4><a href="#">Forgot your password?</a></h4>
     </form>
-
+<footer>
+    <p>© 2025 mfonumoh profile. All rights reserved.</p>
+    <div class="social-links">
+        <a href="#"><span><i class="fa-brands fa-github"></i>
+        </span>GitHub</a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+    </div>
+</footer>
     <script src="script.js"></script>
 </body>
 </html>

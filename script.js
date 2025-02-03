@@ -6,7 +6,11 @@ loginForm.addEventListener('submit', (e)=>{
     let userPassword = document.getElementById('password').value;
 
     if(userInput === '' || userPassword === ''){
-        e.preventDefault(); // Prevent form submission
         alert('Both fields are required!')
     }
+});
+
+
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    document.getElementById('menu').classList.toggle('active');
 });
