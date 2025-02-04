@@ -1,7 +1,7 @@
 
 let loginForm = document.getElementById('loginForm');
 
-loginForm.addEventListener('submit', (e)=>{
+loginForm.addEventListener('submit', ()=>{
     let userInput = document.getElementById('username').value;
     let userPassword = document.getElementById('password').value;
 
