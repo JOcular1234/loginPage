@@ -17,24 +17,29 @@
                 <li><a href="profile.html">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
-                <i class="fa-solid fa-circle-half-stroke" id="darkModeToggle"></i>
+                <!-- <i class="fa-solid fa-circle-half-stroke" id="darkModeToggle"></i> -->
             </ul>
         </div>
     </nav> 
 
     <form id="loginForm">
-        <p>Login</p>
+        <h1>Login</h1>
         <label for="username">Username: <span>*</span></label> <br>
         <input type="text" id="username" name="username" placeholder="username:">
+        <span id="handleUserNameError"></span>
         <br><br>
         
         <label for="password">Password:<span>*</span></label> <br>
-        <input type="password" id="password" name="password">
+        <input type="password" id="password" name="password"> 
+        <span id="handlePasswordError"></span>
+
         <br>
         <div class="remember-div">
         <input type="checkbox">
         <label for="">Remember me</label>
         </div>
+        <span id="handleBothError"></span>
+        
         <br>
         
         <button type="submit" id="submitbtn">Login</button>
